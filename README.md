@@ -3,7 +3,7 @@
 ![Gluten Status](https://img.shields.io/badge/Gluten-Free-green.svg)
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 
-# Coming soon
+# BIT
 
 _website design project_
 
@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://zakarkaitemilda.github.io/8-BIT/
 
-Design: [Coming soon](https://www.figma.com/file/V1JPQMZa66Mk53vnN5tvaM/FE-(3-week-practice)?node-id=0%3A1&t=GIi5n1Zy1EAZqUZo-1 )
+Design: [BIT](https://www.figma.com/file/V1JPQMZa66Mk53vnN5tvaM/FE-(3-week-practice)?node-id=0%3A1&t=GIi5n1Zy1EAZqUZo-1 )
 
 ## 🎯 Project features/goals
 
