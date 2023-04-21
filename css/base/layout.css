@@ -1,0 +1,56 @@
+.header,
+.main,
+.footer {
+    padding: 0 9.3%;
+}
+/* Header*/
+/* Navigation*/
+.navigation {
+background-color: greenyellow;
+}
+/* Navigation end*/
+/* Hero section*/
+.hero {
+    display: flex;
+}
+
+.herotext {
+    background-color: blue;
+    width: 35%;
+    margin-right: 15%;
+}
+
+.heroimg {
+    background-color: brown;
+    width: 50%;
+}
+/* Hero section end*/
+/* Header end*/
+/* Main*/
+.partnerslogo {
+    background-color: aquamarine;
+}
+
+.partners {
+    width: 15%;
+}
+
+.meeting {
+    background-color: bisque;
+}
+
+.creative {
+    background-color: burlywood;
+}
+
+.talents {
+    background-color: aquamarine;
+}
+
+/* Main end*/
+
+/* Footer*/
+.footercontainer {
+    background-color: green;
+}
+/* Footer end*/
