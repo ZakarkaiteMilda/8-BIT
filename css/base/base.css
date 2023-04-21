@@ -5,7 +5,12 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
+@font-face {
+    font-family: WorkSans-VariableFont_wght;
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: CrimsonText-Roman;
+    src: url(../fonts/crimson-text/CrimsonText-Roman.ttf);
 }
