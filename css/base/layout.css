@@ -37,7 +37,7 @@ display: flex;
 .herotext > h5 {
     color: white;
     font-family: 'WorkSans-VariableFont_wght';
-    letter-spacing: 0.2em;
+    letter-spacing: 0.5em;
     font-size: 8px;
 
 }
@@ -84,7 +84,7 @@ display: flex;
     color: #74C69D;
     font-family: 'WorkSans-VariableFont_wght';
     font-size: 8px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.5em;
     line-height: 20px;
     text-align: center;
 }   
@@ -158,10 +158,20 @@ margin: 25px 0px;
 }
 
 @media (max-width: 900px) {
-h4 {
-    font-size: ;
+    .herotext {
+        margin-right: 15%;  
+        width: 35%; 
+    }
+
+    .buttonWhite {
+        margin-top: 10px;
+    }
+    
+    .herotext > p {
+        margin-top: 5px;
+    }
 }
-}
+
 
 @media (max-width: 700px) {
 .herotext {
@@ -178,7 +188,9 @@ h4 {
 
 @media (max-width: 440px) {
     .hero {
-       flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 15px;
+      
    }
    .herotext {
        width: 100%;
@@ -189,22 +201,17 @@ h4 {
    .heroimg  {
        width: 100%;
    }
-   .herotext > h5, h1, p {
-       text-align: center;
-   }
 
-   .herotext > h5 {
-       font-size: 12px;
-   }
+    .partners {
+    width: 100%;
+    width: 120px;
+    margin: 0px calc(50% - 60px);
+    }
 
-   .buttonWhite {
-       margin: 0px calc(50% - 60px);
-   }
-
-   .herotext > p {
-    margin-top: 0;
-}
-  
+    .logoImg {
+    flex-wrap: wrap;
+    gap: 30px;
+    }
 }
 
 
