@@ -4,19 +4,51 @@
     padding: 0 9.3%;
 }
 /* Header*/
+
 .header {
     background-color: #74C69D;
 }
 /* Navigation*/
 .navigation {
-background-color: darkolivegreen;
 display: flex;
+padding-top: 15px;
 }
+
+.Logo {
+    height: 30px;
+    margin-right: 14%;
+}
+
+.Start {
+    height: 30px;
+    margin-right: 41%;
+}
+
+.navigation > ul > li {
+    display: block;
+	float: right;
+    font-size: 10px;
+    text-align: right;
+    margin-left: 15px;
+    padding-top: 12px;
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
 /* Navigation end*/
 /* Hero section*/
 .hero {
     display: flex;
     padding: 5% 0;
+    /* z-index: 2; */
 }
 
 .herotext {
