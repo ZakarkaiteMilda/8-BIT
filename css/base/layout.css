@@ -243,13 +243,55 @@ margin: 0 0 40px 0;
 /* Main end*/
 
 /* Footer*/
-.footer {
+/* .footer {
     background-color: #74C69D ;
     margin-top: 35px;
 }
 .footercontainer {
     display: flex;
+} */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: 30px calc((100% - 900px) / 2);
 }
+
+.socials {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+.socials > .social-link {
+    width: 1em;
+    height: 1em;
+    font-size: inherit;
+    line-height: 1em;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+}
+.socials > .social-link:hover {
+    color: #55337a;
+    margin: -0.25em;
+    font-size: 2em;
+}
+
+footer {
+    background-color: aqua;
+
+}
+.container > .copyright {
+color: black;
+font-size: 12px;
+}
+
+/* .container > .copyright > a {
+    color: black;
+} */
 /* Footer end*/
 
 /* Responsible design*/
@@ -377,6 +419,10 @@ margin: 0 0 40px 0;
     .logoImg {
     flex-wrap: wrap;
     gap: 30px;
+    }
+
+    .meeting {
+        display: block;
     }
 }
 
