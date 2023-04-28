@@ -85,7 +85,7 @@ h5 {
 p {
     color: white;
     font-family: 'WorkSans-VariableFont_wght';
-    font-size: 7px;
+    font-size: 15px;
 
 }
 
@@ -124,7 +124,7 @@ p {
 .partnerslogo > div > h5 {
     color: #74C69D;
     font-family: 'WorkSans-VariableFont_wght';
-    font-size: 8px;
+    font-size: 12px;
     letter-spacing: 0.5em;
     line-height: 20px;
     text-align: center;
@@ -133,13 +133,13 @@ p {
 .partnerslogo > div > h2 {
 text-align: center;
 font-size: 20px;
-line-height: 25px;
+line-height: 30px;
 font-family: "CrimsonText-Roman";
 }
 
 .partnerslogo > div > p {
     font-family: 'WorkSans-VariableFont_wght';
-    font-size: 10px;
+    font-size: 15px;
     color: black;
     line-height: 15px;
     text-align: center;
@@ -185,6 +185,7 @@ margin: 25px 0px;
     margin-right: 0;
     margin-left: 20%;
     justify-content: end;
+ 
 }
 
 .creative > .text {
@@ -200,18 +201,22 @@ margin: 0 0 40px 0;
 
 .meeting > .text > p {
     margin: 0 0 35px 0;
+    color: black;
 }
     
 .creative > .text > p {
         margin: 0 0 40px 0;
+        color: black;
 }
 
 .meeting > .text > h3 {
     margin: 0 0 40px 0;
+    color: black;
     }
     
 .creative > .text > h3 {
         margin: 0 0 40px 0;
+        color: black;
     }
 
 /* Meeting section*/
@@ -423,20 +428,23 @@ font-size: 12px;
 
     .meeting {
         display: block;
+        gap: 15px;
     }
-}
 
-/* meeting section */
-.meeting {
-    gap: 15px;
-}
+    .meeting > .text {
+        margin-left: 0;
+    }
 
-/* meeting section */
-/* teem section */
+    /* meeting section */
+    /* meeting section */
+    /* teem section */
 .team {
     width: 100%;
     margin: 0;
 }
-/* teem section end */
+/* teem section end */ 
+}
+
+
 
 /* Responsible design*/
