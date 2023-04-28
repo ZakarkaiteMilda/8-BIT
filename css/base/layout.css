@@ -3,12 +3,17 @@
 .footer {
     padding: 0 9.3%;
 }
+
+
 /* Header*/
 
 .header {
     background-color: #74C69D;
 }
 /* Navigation*/
+.list {
+    display: none;
+}
 .navigation {
 display: flex;
 padding-top: 15px;
@@ -303,6 +308,17 @@ font-size: 12px;
 
 
 @media (max-width: 900px) {
+    
+    .Logo {
+        width: 54px;
+        margin-right: 15%;
+    }
+    
+    .Start {
+        width: 90px;
+        margin-right: 23%
+    }
+    
     .row > .text {
         margin-right: 15%;  
         width: 35%; 
@@ -321,9 +337,6 @@ font-size: 12px;
         margin-top: 5px;
     }
 
-    .Start {
-        margin-right: 30%;
-    } 
 }
 /* meeting section */
 .meeting > .text {
@@ -358,6 +371,18 @@ font-size: 12px;
 /* team section end*/
 
 @media (max-width: 700px) {
+.list {
+    display: inline;
+    margin-left: 42%;
+}
+.Logo {
+      display: none;
+    }
+    
+ul {
+    display: none;
+}
+    
 .row > .text {
     margin-right: 10%;
     margin-bottom: 10%;
