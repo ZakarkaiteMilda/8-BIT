@@ -66,13 +66,11 @@ h1, h3 {
     font-family: "CrimsonText-Roman";
 }
 
-
 h4 {
     font-size: 17px;
     font-family: "CrimsonText-Roman";
     line-height: 30px;
 }
-
 
 h5 {
     color: white;
@@ -85,7 +83,7 @@ h5 {
 p {
     color: white;
     font-family: 'WorkSans-VariableFont_wght';
-    font-size: 15px;
+    font-size: 7px;
 
 }
 
@@ -148,6 +146,10 @@ font-family: "CrimsonText-Roman";
 
 .partners {
     width: 15%;
+} 
+
+.team {
+    width: 190px;
 }
 
 .logoImg {
@@ -229,9 +231,6 @@ margin: 0 0 40px 0;
 /* Creative section end */
 /* Team section */
 
-                             .team {
-  
-}
 .team > img {
     width: 70%;
     margin-left: 10%; 
@@ -346,11 +345,15 @@ font-size: 12px;
 /* creative section  end*/
 /* team section */
 .team {
-
     box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     padding: 0 0 20px 20px;
 } 
+.logoImg {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
 
 /* team section end*/
 
@@ -400,6 +403,11 @@ font-size: 12px;
 }
 
 @media (max-width: 440px) {
+    p {
+        font-size: 15px;
+    
+    }
+    
     .row {
         flex-direction: column-reverse;
         gap: 15px;
@@ -434,6 +442,8 @@ font-size: 12px;
     .meeting > .text {
         margin-left: 0;
     }
+
+   
 
     /* meeting section */
     /* meeting section */
