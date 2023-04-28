@@ -49,7 +49,6 @@ ul {
 .row {
     display: flex;
     padding: 5% 0;
-    /* z-index: 2; */
 }
 
 .text {
@@ -170,10 +169,6 @@ margin: 25px 0px;
     margin: 0px calc(50% - 60px);
 }
 
-/* .teammate > .buttonBlack {
-    margin-bottom: 30px;
-} */
-
 .meeting {
     background-color: bisque;
 }
@@ -226,24 +221,11 @@ margin: 0 0 40px 0;
 }
 /* Meeting section end */
 /* Creative section*/
-.creative > .text {
-
-}
 /* Creative section end */
 /* Team section */
-/* .logoImg > .partners >.team {
-    background-color: antiquewhite;
-    width: 20%;
-    height: 200px;
-    border-color: black;
-    border-radius: 3px;
-    border-width: 5px;
-    box-shadow: 20px 20px 10px grey;     
-} */
-.team {
-    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    padding: 0 0 20px 20px;
+
+                             .team {
+  
 }
 .team > img {
     width: 70%;
@@ -255,10 +237,6 @@ margin: 0 0 40px 0;
     gap: 5%;
 }
 
-
-/* .viewTeam {
-    margin-bottom: 50px;
-} */
 /* Team section */
 
 
@@ -321,14 +299,12 @@ margin: 0 0 40px 0;
 /* creative section  end*/
 /* team section */
 .team {
+
     box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
-    padding: 0 0 10px 0px;
-}
+    padding: 0 0 20px 20px;
+} 
 
-.teammate > h4 {
-    
-}
 /* team section end*/
 
 @media (max-width: 700px) {
@@ -406,18 +382,14 @@ margin: 0 0 40px 0;
 
 /* meeting section */
 .meeting {
-    /* flex-direction: column; */
     gap: 15px;
 }
-.meeting > .text {
-    /* margin-left: 0%; */
-}
+
 /* meeting section */
 /* teem section */
 .team {
     width: 100%;
     margin: 0;
-    /* padding: 0 20px 20px 20px; */
 }
 /* teem section end */
 
