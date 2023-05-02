@@ -15,3 +15,5 @@ font-family: WorkSans-VariableFont_wght;;
     font-family: CrimsonText-Roman;
     src: url(../fonts/crimson-text/CrimsonText-Roman.ttf);
 }
+
+@import '../3rd-party/font-awesome.min.css';

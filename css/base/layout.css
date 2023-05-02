@@ -176,17 +176,6 @@ margin: 25px 0px;
     margin: 0px calc(50% - 60px);
 }
 
-.meeting {
-    background-color: bisque;
-}
-
-.creative {
-    background-color: burlywood;
-}
-
-.talents {
-    background-color: aquamarine;
-}
 /* Meeting section */
 .meeting > .text {
     margin-right: 0;
@@ -240,7 +229,7 @@ margin: 0 0 40px 0;
     width: 70%;
     margin-left: 10%; 
     margin-top: 10%;
-}
+} 
 
 .teammate {
     gap: 5%;
@@ -252,21 +241,36 @@ margin: 0 0 40px 0;
 /* Main end*/
 
 /* Footer*/
-/* .footer {
+.footer {
     background-color: #74C69D ;
     margin-top: 35px;
 }
 .footercontainer {
-    display: flex;
-} */
+display: flex;
+justify-content: space-between;
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 900px;
-    margin: 30px calc((100% - 900px) / 2);
 }
+.socials {
+  display: inline-block;
+  width: 200px;
+  line-height: 50px;
+}
+.copyright {
+    display: inline-block;
+    width: 200px;
+    color: black;
+    font-size: 12px;
+    line-height: 50px;
+    text-align: right;
+    } 
+    /* .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 900px;
+        margin: 30px calc((100% - 900px) / 2);
+    } */
+/* 
 
 .socials {
     display: flex;
@@ -280,23 +284,16 @@ margin: 0 0 40px 0;
     font-size: inherit;
     line-height: 1em;
     text-align: center;
-    color: #999;
+    color: black;
     text-decoration: none;
 }
-.socials > .social-link:hover {
-    color: #55337a;
-    margin: -0.25em;
-    font-size: 2em;
-}
+
 
 footer {
     background-color: aqua;
 
 }
-.container > .copyright {
-color: black;
-font-size: 12px;
-}
+*/
 
 /* .container > .copyright > a {
     color: black;
@@ -316,7 +313,7 @@ font-size: 12px;
     
     .Start {
         width: 90px;
-        margin-right: 23%
+        margin-right: 21%
     }
     
     .row > .text {
@@ -362,11 +359,14 @@ font-size: 12px;
     border-radius: 5px;
     padding: 0 0 20px 20px;
 } 
+
 .logoImg {
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 30px;
-}
+  
+} 
+
 
 /* team section end*/
 
@@ -478,6 +478,19 @@ ul {
     margin: 0;
 }
 /* teem section end */ 
+.footercontainer {
+   flex-wrap: wrap;
+   justify-content: center;
+    
+    }
+.copyright {
+    text-align: center;
+    line-height: 20px;
+    }
+.socials {
+    text-align: center;
+    line-height: 20px;
+}
 }
 
 
