@@ -254,25 +254,23 @@ justify-content: space-between;
   display: inline-block;
   width: 200px;
   line-height: 50px;
+  font-size: 12px;
 }
 .copyright {
     display: inline-block;
     width: 200px;
-    color: black;
+    color: white;
     font-size: 12px;
     line-height: 50px;
     text-align: right;
     } 
-    /* .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 900px;
-        margin: 30px calc((100% - 900px) / 2);
-    } */
-/* 
 
-.socials {
+.footercontainer > .social > a {
+        color: black;
+    } 
+
+
+/* .socials {
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
@@ -286,18 +284,8 @@ justify-content: space-between;
     text-align: center;
     color: black;
     text-decoration: none;
-}
-
-
-footer {
-    background-color: aqua;
-
-}
-*/
-
-/* .container > .copyright > a {
-    color: black;
 } */
+
 /* Footer end*/
 
 /* Responsible design*/
