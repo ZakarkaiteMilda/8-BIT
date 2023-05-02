@@ -269,22 +269,20 @@ justify-content: space-between;
         color: black;
     } 
 
+    .socials > .social-link {
+        width: 1em;
+        height: 1em;
+        font-size: inherit;
+        line-height: 1em;
+        text-align: center;
+    } 
 
-/* .socials {
-    display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-    font-size: 20px;
+
+.socials {
+    gap: 30px;
+    font-size: 15px;
 }
-.socials > .social-link {
-    width: 1em;
-    height: 1em;
-    font-size: inherit;
-    line-height: 1em;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-} */
+
 
 /* Footer end*/
 
@@ -473,11 +471,12 @@ ul {
     }
 .copyright {
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
     }
 .socials {
     text-align: center;
-    line-height: 20px;
+    line-height: 30px;
+    margin-top: 20px;
 }
 }
 
